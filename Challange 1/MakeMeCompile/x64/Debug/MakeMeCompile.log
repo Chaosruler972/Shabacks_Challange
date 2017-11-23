@@ -1,0 +1,44 @@
+﻿  MakeMeCompileMain.cpp
+d:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory0(840): warning C4244: 'initializing': conversion from 'short' to 'char', possible loss of data
+  d:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory0(959): note: see reference to function template instantiation 'void std::allocator<char>::construct<_Objty,short&>(_Objty *,short &)' being compiled
+          with
+          [
+              _Objty=char
+          ]
+  d:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory0(959): note: see reference to function template instantiation 'void std::allocator<char>::construct<_Objty,short&>(_Objty *,short &)' being compiled
+          with
+          [
+              _Objty=char
+          ]
+  d:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory0(1097): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,short&>(std::allocator<_Ty> &,_Objty *,short &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<char>,
+              _Ty=char,
+              _Objty=char
+          ]
+  d:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory0(1096): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,short&>(std::allocator<_Ty> &,_Objty *,short &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<char>,
+              _Ty=char,
+              _Objty=char
+          ]
+  d:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(928): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<char>>::construct<_Ty,short&>(_Ty *,short &)' being compiled
+          with
+          [
+              _Ty=char
+          ]
+  d:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(928): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<char>>::construct<_Ty,short&>(_Ty *,short &)' being compiled
+          with
+          [
+              _Ty=char
+          ]
+  c:\users\chaosruler\desktop\shit\makemecompile\makemecompilemain.cpp(36): note: see reference to function template instantiation 'void std::vector<char,std::allocator<char>>::emplace_back<short&>(short &)' being compiled
+  c:\users\chaosruler\desktop\shit\makemecompile\makemecompilemain.cpp(36): note: see reference to function template instantiation 'void std::vector<char,std::allocator<char>>::emplace_back<short&>(short &)' being compiled
+  Encryption.cpp
+  Generating Code...
+  TopSecretLibDebug.lib(TopSecretLib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : fatal error C1905: Front end and back end not compatible (must target same processor).
+LINK : fatal error LNK1257: code generation failed

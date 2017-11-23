@@ -1,0 +1,5 @@
+﻿  main.c
+e:\drive\self work\shabaks challanges\shabacks shit\shit2\project1\project1\main.c(25): warning C4018: '<': signed/unsigned mismatch
+e:\drive\self work\shabaks challanges\shabacks shit\shit2\project1\project1\main.c(62): warning C4133: 'return': incompatible types - from 'char *' to 'int *'
+e:\drive\self work\shabaks challanges\shabacks shit\shit2\project1\project1\main.c(262): warning C4133: '=': incompatible types - from 'int *' to 'char *'
+LINK : fatal error LNK1168: cannot open E:\Drive\self work\shabaks challanges\shabacks shit\shit2\Project1\Debug\Project1.exe for writing
